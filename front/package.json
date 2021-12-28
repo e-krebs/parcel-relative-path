@@ -1,0 +1,19 @@
+{
+  "name": "parcel-relative-path-front",
+  "version": "1.0.0",
+  "description": "bug repro for parcel 2",
+  "author": "Emmanuel Krebs <e-krebs@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev:front": "parcel src/index.html",
+    "dev:library": "parcel watch ../library",
+    "dev": "parcel src/index.html ../library"
+  },
+  "dependencies": {
+    "parcel-relative-path-library": "link:../library"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
