@@ -1,4 +1,4 @@
-this is a repro repository for a parcel bug regarding relative path containing "`..`"
+this is a repro repository for [a parcel bug](https://github.com/parcel-bundler/parcel/issues/7493) regarding relative path containing "`..`"
 
 to reproduce:
 ```sh
